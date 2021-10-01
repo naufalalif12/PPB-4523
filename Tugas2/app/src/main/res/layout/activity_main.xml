@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello There!"
+        android:textSize="20dp"
+        android:textColor="@color/color3"
+        android:background="@color/colorPrimary"
+
+        />
+
+    <Button
+        android:id="@+id/tmblTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textSize="25dp"
+        android:onClick="timeklik"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/color2"
+        />
+
+    <TextView
+        android:id="@+id/konter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="185dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tmblCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Count"
+        android:textSize="30dp"
+        android:onClick="hitungc"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/color2"/>
+</LinearLayout>
