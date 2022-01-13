@@ -1,4 +1,4 @@
-package com.example.myfirebaseapp;
+ package com.example.myfirebaseapp;
 
 public class Mahasiswa {
     private String nim;
